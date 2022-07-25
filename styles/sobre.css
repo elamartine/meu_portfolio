@@ -1,0 +1,128 @@
+.sobre {
+  background: linear-gradient(90deg, #eaeaea 50%, #fff 50%);
+}
+.lista-sobre ul {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 500px;
+  padding-block: 90px;
+  background-color: #eaeaea;
+}
+.lista-sobre li {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  padding: 20px 60px;
+  border-radius: 4px;
+}
+.lista-sobre img {
+  width: 48px;
+  height: 48px;
+}
+.lista-sobre p {
+  display: inline-block;
+  font-family: "poppins";
+  font-size: 1.5rem;
+}
+
+.lista-sobre li:nth-child(odd) {
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.texto-sobre h2 {
+  display: inline-block;
+  color: #131212;
+  font-weight: 600;
+  font-size: 4.5rem;
+  font-family: "roboto";
+}
+.texto-sobre p {
+  font-family: "poppins";
+  font-size: 1.5rem;
+  line-height: 32px;
+}
+.texto-sobre {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+.conteiner-sobre {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1270px;
+  gap: 100px;
+}
+
+.texto-sobre h2::before {
+  content: "";
+  background: linear-gradient(180deg, #f95a00 0%, #e9192f 100%);
+  width: 12px;
+  height: 100%;
+  position: absolute;
+  left: -30px;
+}
+.texto-sobre span {
+  color: #e9192f;
+}
+
+@media (max-width: 1300px) {
+  .texto-sobre p {
+    max-width: 450px;
+    font-size: 1.125rem;
+    line-height: 25px;
+  }
+  .texto-sobre span {
+    font-size: 1.125rem;
+  }
+  .texto-sobre h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .lista-sobre p {
+    font-size: 1.125rem;
+  }
+  .lista-sobre img {
+    width: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .conteiner-sobre {
+    grid-template-columns: 1fr;
+  }
+  .sobre {
+    background: none;
+  }
+  .texto-sobre {
+    grid-row: 1;
+    padding: 30px;
+  }
+  .texto-sobre p {
+    max-width: max-content;
+  }
+  .lista-sobre {
+    justify-self: center;
+    width: 100%;
+  }
+  .lista-sobre ul {
+    width: 100%;
+    max-width: none;
+  }
+  .texto-sobre h2 {
+    font-size: 2rem;
+  }
+  .texto-sobre p {
+    font-size: 14px;
+  }
+
+  .texto-sobre span {
+    font-size: 14px;
+  }
+}

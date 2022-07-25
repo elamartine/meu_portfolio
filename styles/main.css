@@ -1,0 +1,203 @@
+.main {
+  background-color: #1b1b1b;
+  padding-top: 115px;
+}
+.conteiner-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 476px;
+  padding: 90px 140px;
+  margin-top: 115px;
+  gap: 100px;
+  align-items: center;
+  max-width: 1270px;
+  margin: auto;
+}
+.main h1 {
+  grid-column: 2;
+  font-weight: 600;
+  font-size: 4.5rem;
+  line-height: 80px;
+  color: #f5f5f5;
+  position: relative;
+  font-family: "Roboto";
+  text-transform: uppercase;
+}
+.main p {
+  font-family: "poppins";
+  font-size: 1.5rem;
+  color: #b4b4b4;
+}
+.main span {
+  background: linear-gradient(180deg, #f95a00 0%, #e9192f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.main img {
+  object-fit: cover;
+  width: 367px;
+  height: auto;
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+  max-height: auto;
+}
+
+.main h1::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 52px;
+  background: linear-gradient(180deg, #f95a00 0%, #e9192f 100%);
+  left: -35px;
+  top: 13px;
+}
+.texto-main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (max-width: 1600px) {
+  .main h1::before {
+    width: 20px;
+    height: 40px;
+    top: 9px;
+    left: -30px;
+  }
+  .main h1 {
+    line-height: 60px;
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 1400px) {
+  .main h1::before {
+    width: 15px;
+    height: 30px;
+    top: 9px;
+    left: -25px;
+  }
+  .main h1 {
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+  .main img {
+    object-fit: cover;
+    width: 300px;
+    height: auto;
+    clip-path: polygon(
+      50% 0%,
+      90% 20%,
+      100% 60%,
+      75% 100%,
+      25% 100%,
+      0% 60%,
+      10% 20%
+    );
+    max-height: auto;
+  }
+  .main p {
+    font-size: 1.2rem;
+  }
+  .main span {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .conteiner-main {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 0px;
+    padding: 50px 90px;
+    margin-top: 0px;
+  }
+  .main img {
+    object-fit: cover;
+    width: 200px;
+    height: auto;
+    clip-path: polygon(
+      50% 0%,
+      90% 20%,
+      100% 60%,
+      75% 100%,
+      25% 100%,
+      0% 60%,
+      10% 20%
+    );
+  }
+  
+  }
+
+  @media (max-width: 1000px) {
+    .main h1::before {
+      width: 13px;
+      height: 25px;
+      top: 12px;
+      left: -25px;
+    }
+    .conteiner-main {
+      padding: 20px 40px;
+    }
+    .main img {
+      object-fit: cover;
+      width: 150px;
+      height: auto;
+      clip-path: polygon(
+        50% 0%,
+        90% 20%,
+        100% 60%,
+        75% 100%,
+        25% 100%,
+        0% 60%,
+        10% 20%
+      );
+      max-height: auto;
+    }
+    .main h1 {
+      font-size: 2rem;
+    }
+    .main p {
+      font-size: 1rem;
+    }
+    .main span {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 700px) {
+    .main h1 {
+      font-size: 2rem;
+    }
+    .main p {
+      font-size: 0.8rem;
+    }
+    .main span {
+      font-size: 0.8rem;
+    }
+  }
+
+@media (max-width: 500px) {
+  .main h1 {
+    font-size: 27px;
+  }
+  .texto-main{
+    gap: 10px;
+  }
+
+}
+@media (max-width: 400px){
+  .main h1 {
+    font-size: 18px;
+  }
+  .conteiner-main{
+    padding: 15px 30px;
+  }
+}

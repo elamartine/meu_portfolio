@@ -1,0 +1,52 @@
+.contato {
+  height: 800px;
+}
+
+.lista-contato h2 {
+  margin-top: 60px;
+  font-size: 72px;
+  font-family: "roboto";
+  text-transform: uppercase;
+}
+.lista-contato {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+  align-items: center;
+  margin-top: 60px;
+  gap: 40px;
+  font-family: "poppins";
+  font-size: 24px;
+}
+
+.img-footer img {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.conteiner-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+}
+
+.img-contato {
+  padding: 20px;
+align-self: flex-end;
+}
+.lista-contato li {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+.lista-contato ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+

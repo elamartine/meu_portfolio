@@ -1,0 +1,197 @@
+.formacao {
+  background-color: #232323;
+  height: 1000px;
+  position: relative;
+}
+.curso h4 {
+  color: #f00000;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "roboto";
+}
+.curso {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  gap: 20px;
+}
+.lista-curso li {
+  padding: auto;
+}
+.lista-curso {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  max-width: 1270px;
+  margin-top: 100;
+  margin: auto;
+}
+.lista-curso h3 {
+  color: #fff;
+  font-size: 42px;
+  align-self: center;
+  font-family: "roboto";
+  margin-top: 60px;
+}
+.lista-curso p,
+span {
+  font-size: 24px;
+  font-family: "poppins";
+}
+
+.curso {
+  background-color: #d9d9d9;
+  padding: 40px 60px;
+  border-radius: 4px;
+}
+
+.conteiner-formacao {
+  width: mim-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.formacao-lista {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 20px;
+  max-width: fit-content;
+  padding: 30px;
+  justify-self: center;
+}
+.formacao-lista h3 {
+  color: #fff;
+  font-size: 2.625rem;
+  font-family: "roboto";
+}
+.formacao-lista p {
+  font-size: 24px;
+  font-family: "poppins";
+}
+.formacao-lista span {
+  font-size: 24px;
+  font-family: "poppins";
+}
+.subtitulo {
+  line-height: 1.1;
+  text-transform: uppercase;
+  grid-column: 2;
+  font-size: 4.5rem;
+  color: #c6c6c6;
+  font-family: "roboto";
+  position: relative;
+}
+.formacao img {
+  position: absolute;
+  top: -40px;
+}
+
+
+
+@media (max-width: 1600px) {
+  .subtitulo {
+    font-size: 4rem;
+  }
+  .lista-curso h3 {
+    font-size: 2rem;
+  }
+  .formacao-lista h3 {
+    font-size: 2rem;
+  }
+  .curso h4 {
+    font-size: 20px;
+  }
+  .curso p {
+    font-size: 20px;
+  }
+  .curso span {
+    font-size: 20px;
+  }
+  .curso {
+    padding: 30px 40px;
+  }
+  .formacao img {
+    max-width: 160px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .subtitulo {
+    font-size: 3.5rem;
+  }
+  .lista-curso h3 {
+    font-size: 1.5rem;
+  }
+  .formacao-lista h3 {
+    font-size: 1.5rem;
+  }
+  .curso h4 {
+    font-size: 20px;
+  }
+  .curso p {
+    font-size: 20px;
+  }
+  .curso span {
+    font-size: 20px;
+  }
+  .curso {
+    padding: 30px 40px;
+  }
+  .formacao img {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 900px) {
+  .conteiner-formacao {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .subtitulo {
+    font-size: 3rem;
+  }
+  .lista-curso h3 {
+    font-size: 1.125rem;
+  }
+  .formacao-lista h3 {
+    font-size: 1.125rem;
+  }
+  .curso h4 {
+    font-size: 20px;
+  }
+  .curso p {
+    font-size: 20px;
+  }
+  .curso span {
+    font-size: 20px;
+  }
+  .curso {
+    padding: 30px 40px;
+  }
+  .formacao img {
+    max-width: 140px;
+  }
+  .curso {
+    padding: 30px 50px;
+  }
+  .lista-curso{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .lista-curso h3{
+    font-size: 62px;
+    justify-self: center;
+    margin-top: 0px;
+  }
+  .formacao-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .formacao-2 h3{
+    font-size: 62px;
+    justify-self: center;
+    align-self: center;
+  }
+}
