@@ -271,11 +271,19 @@ span {
   }
 }
 @media (max-width: 400px){
-  .formacao img{
-    max-width: 80px;
-  }
     .formacao img{
       max-width: 70px;
       top: -15px
     }
+    .conteiner-formacao h2{
+      font-size: 40px;
+    }
+}
+@media (max-width: 300px){
+  .conteiner-formacao h2{
+    font-size: 32px;
+  }
+  .conteiner-formacao h3{
+    font-size: 28px;
+  }
 }
