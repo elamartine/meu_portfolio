@@ -49,4 +49,13 @@ align-self: flex-end;
   gap: 20px;
 }
 
+@media (max-width: 1300px){
+  .conteiner-footer h2{
+    font-size: 62px;
+  }
+  .lista-contato a{
+    
+  }
+}
+
 
