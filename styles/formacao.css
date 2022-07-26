@@ -144,6 +144,7 @@ span {
 }
 
 @media (max-width: 900px) {
+  
   .conteiner-formacao {
     display: grid;
     grid-template-columns: 1fr;
@@ -178,6 +179,7 @@ span {
   .lista-curso{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
   }
   .lista-curso h3{
     font-size: 62px;
@@ -193,5 +195,64 @@ span {
     font-size: 62px;
     justify-self: center;
     align-self: center;
+  }
+  .subtitulo{
+    align-self: inherit;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .formacao{
+    height: 1100px;
+  }
+}
+@media (max-width: 700px){
+  .curso {
+    padding: 20px 25px;
+  }
+  .curso p{
+    font-size: 18px;
+  }
+  .curso h4{
+    font-size: 18px;
+  }
+  .conteiner-formacao h3{
+    font-size: 52px;
+  }
+  .subtitulo {
+    font-size: 40px;
+  }
+  .formacao{
+    height: 1050px;
+  }
+}
+@media (max-width: 600px){
+  .curso {
+    padding: 34px 20px;;
+    gap: 10px;
+  }
+  .curso p{
+    font-size: 16px;
+  }
+  .formacao-2.curso h4{
+    font-size: 16px;
+    
+  }
+  .conteiner-formacao h3{
+    font-size: 32px;
+  }
+  .subtitulo {
+    font-size: 32px;
+  }
+  .formacao-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lista-curso{
+    display: flex;
+    flex-direction: column;
+  }
+  .formacao{
+    height: 1300px;
   }
 }

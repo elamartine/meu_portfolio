@@ -68,9 +68,6 @@
   .menu li{
     display: none;
   }
-  .sobre-icon{
-    background-image: url("/img/casa.svg");
-    position: absolute;
-  }
+
 }
 
