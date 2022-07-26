@@ -115,6 +115,11 @@ span {
     max-width: 160px;
   }
 }
+@media (max-width: 1400px){
+  .formacao img{
+    max-width: 120px;
+  }
+}
 
 @media (max-width: 1000px) {
   .subtitulo {
@@ -171,7 +176,8 @@ span {
     padding: 30px 40px;
   }
   .formacao img {
-    max-width: 140px;
+    max-width: 110px;
+    top: -35px
   }
   .curso {
     padding: 30px 50px;
@@ -206,6 +212,10 @@ span {
   }
 }
 @media (max-width: 700px){
+  .formacao img{
+    max-width: 100px;
+    top: -30px
+  }
   .curso {
     padding: 20px 25px;
   }
@@ -226,6 +236,10 @@ span {
   }
 }
 @media (max-width: 600px){
+  .formacao img{
+    max-width: 80px;
+    top: -25px
+  }
   .curso {
     padding: 34px 20px;;
     gap: 10px;
@@ -255,4 +269,13 @@ span {
   .formacao{
     height: 1300px;
   }
+}
+@media (max-width: 400px){
+  .formacao img{
+    max-width: 80px;
+  }
+    .formacao img{
+      max-width: 70px;
+      top: -15px
+    }
 }
