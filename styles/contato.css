@@ -30,8 +30,8 @@
   width: 100%;
   height: 100%;
   object-position: top;
-  left: -1;
-  right: -1;
+  left: -10;
+  right: -10;
 }
 
 .conteiner-footer {
