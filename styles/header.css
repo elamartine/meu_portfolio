@@ -14,8 +14,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  margin: auto;
-  position: relative;
   align-items: center;
   position: relative;
 }
@@ -24,7 +22,6 @@
   font-size: 1.5rem;
   color: #dedede;
   text-transform: uppercase;
-  border-bottom: solid 4px #1b1b1b;
 }
 
 .menu a:after{
@@ -51,6 +48,7 @@
   position: absolute;
   left: -30px;
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  margin-bottom: 8px;
 }
 .header ul::after{
   content: "";
@@ -61,6 +59,7 @@
   position: absolute;
   right:  -30px;
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  margin-bottom: 8px;
 }
 
 

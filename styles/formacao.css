@@ -1,6 +1,5 @@
 .formacao {
   background-color: #232323;
-  height: 1000px;
   position: relative;
 }
 .curso h4 {
@@ -22,6 +21,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  grid-row: span 2;
   justify-content: center;
   max-width: 1270px;
   margin-top: 100;
@@ -32,7 +32,7 @@
   font-size: 42px;
   align-self: center;
   font-family: "roboto";
-  margin-top: 60px;
+  margin-top: 90px;
 }
 .lista-curso p,
 span {
@@ -47,7 +47,8 @@ span {
 }
 
 .conteiner-formacao {
-  width: mim-content;
+  max-width: 1270px;
+  margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -55,15 +56,18 @@ span {
   display: flex;
   flex-direction: column;
   align-self: center;
+  grid-column: 1;
+  grid-row: 2;
   gap: 20px;
   max-width: fit-content;
-  padding: 30px;
   justify-self: center;
 }
 .formacao-lista h3 {
   color: #fff;
   font-size: 2.625rem;
   font-family: "roboto";
+  text-align: center;
+  margin-bottom: 30px;
 }
 .formacao-lista p {
   font-size: 24px;
@@ -76,11 +80,12 @@ span {
 .subtitulo {
   line-height: 1.1;
   text-transform: uppercase;
-  grid-column: 2;
-  font-size: 4.5rem;
+  font-size: 4rem;
   color: #c6c6c6;
   font-family: "roboto";
   position: relative;
+  display: flex;
+  align-items: center;
 }
 .formacao img {
   position: absolute;
@@ -115,15 +120,31 @@ span {
     max-width: 160px;
   }
 }
+@media (max-width: 1500px){
+  .formacao img{
+    max-width: 110px;
+  }
+}
 @media (max-width: 1400px){
   .formacao img{
-    max-width: 120px;
+    max-width: 100px;
+  }
+  .subtitulo{
+    font-size: 3.5rem;
+    align-self: end;
+    justify-content: end;
+  }
+}
+@media (max-width: 1100px){
+  .subtitulo{
+    font-size: 3rem;
   }
 }
 
+
 @media (max-width: 1000px) {
   .subtitulo {
-    font-size: 3.5rem;
+    font-size: 2.75rem;
   }
   .lista-curso h3 {
     font-size: 1.5rem;
@@ -156,7 +177,8 @@ span {
   }
   .subtitulo {
     font-size: 3rem;
-  }
+    justify-content: center;
+    }
   .lista-curso h3 {
     font-size: 1.125rem;
   }
@@ -196,6 +218,7 @@ span {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    margin-bottom: 30px;
   }
   .formacao-2 h3{
     font-size: 62px;
@@ -261,6 +284,10 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+  }
+  .formacao-2 h3{
+    margin: 0px;
   }
   .lista-curso{
     display: flex;
@@ -276,7 +303,7 @@ span {
       top: -15px
     }
     .conteiner-formacao h2{
-      font-size: 40px;
+      font-size: 36px;
     }
 }
 @media (max-width: 300px){
