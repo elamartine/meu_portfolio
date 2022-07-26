@@ -195,9 +195,19 @@
 }
 @media (max-width: 400px){
   .main h1 {
-    font-size: 18px;
+    font-size: 19px;
+    line-height: 1.5;
   }
   .conteiner-main{
     padding: 15px 30px;
+  }
+  .main p {
+    font-size: 14px;
+  }
+  .main h1::before{
+    width: 10px;
+      height: 18px;
+      top: 4px;
+      left: -25px;
   }
 }
