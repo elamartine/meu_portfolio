@@ -6,9 +6,10 @@
   display: flex;
   flex-direction: row;
   gap: 35px;
-  justify-self: center;
+  justify-content: center;
   height: 200px;
   align-items: center;
+
 }
 .conteiner-footer{
   max-width: 1270px; 
@@ -21,4 +22,44 @@
   font-size: 18px;
   font-family: "poppins";
   align-self: center;
+  text-align: center;
+}
+.lista-footer img{
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 700px){
+  .lista-footer img{
+    width: 45px;
+  height: 45px;
+  }
+  .conteiner-footer p{
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px){
+  .conteiner-footer{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .conteiner-footer p{
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 400px){
+  .lista-footer img{
+    width: 40px;
+  height: 40px;
+  }
+  .lista-footer{
+    height: 150px;
+  }
+}
+@media (max-width: 400px){
+  .lista-footer img{
+  width: 35px;
+  height: 35px;
+}
 }
