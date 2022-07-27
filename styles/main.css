@@ -182,6 +182,9 @@
     .main span {
       font-size: 0.8rem;
     }
+    .conteiner-main{
+      height: 350px;
+    }
   }
 
 @media (max-width: 500px) {
