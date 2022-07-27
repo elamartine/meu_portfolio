@@ -1,5 +1,5 @@
 .contato {
-  padding-bottom: 90px ;
+  padding-bottom: 90px;
 }
 
 .lista-contato h2 {
@@ -19,16 +19,15 @@
   font-family: "poppins";
   font-size: 24px;
 }
-.lista-contato img{
+.lista-contato img {
   width: 50px;
   height: 50px;
 }
 
-.img-footer .onda{
+.img-footer .onda {
   width: 100%;
   height: 100%;
-  object-position: top;
-  border-top: 1px solid #232323;
+  top: -5px;
 }
 
 .conteiner-contato {
@@ -39,7 +38,7 @@
 
 .img-contato {
   padding: 20px;
-align-self: flex-end;
+  align-self: flex-end;
 }
 .lista-contato li {
   display: flex;
@@ -47,108 +46,106 @@ align-self: flex-end;
   gap: 30px;
   align-items: center;
 }
-.lista-contato ul{
+.lista-contato ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-@media (max-width: 1300px){
-  .conteiner-contato h2{
+@media (max-width: 1300px) {
+  .conteiner-contato h2 {
     font-size: 62px;
   }
-  .lista-contato ul{
+  .lista-contato ul {
     padding: 20px;
   }
-  .lista-contato li{
+  .lista-contato li {
     font-size: 20px;
   }
-  .lista-contato img{
+  .lista-contato img {
     width: 45px;
     height: 45px;
   }
-  .conteiner-contato{
+  .conteiner-contato {
     margin-top: 0px;
   }
 }
-@media (max-width: 900px){
-  .lista-contato ul{
+@media (max-width: 900px) {
+  .lista-contato ul {
     padding: 30px;
   }
-  .conteiner-contato h2{
+  .conteiner-contato h2 {
     font-size: 52px;
   }
-  .img-contato{
+  .img-contato {
     align-self: center;
   }
-  .img-footer{
+  .img-footer {
     position: relative;
   }
-  .conteiner-contato{
+  .conteiner-contato {
     margin-top: 0px;
   }
-  }
-  
+}
 
-
-@media (max-width: 700px){
-  .conteiner-contato h2{
+@media (max-width: 700px) {
+  .conteiner-contato h2 {
     font-size: 42px;
   }
-  .lista-contato li{
+  .lista-contato li {
     font-size: 18px;
   }
-  .lista-contato img{
+  .lista-contato img {
     width: 40px;
     height: 40px;
   }
-  .img-contato img{
+  .img-contato img {
     display: none;
   }
-  .img-contato{
+  .img-contato {
     padding: 0px;
   }
-  .conteiner-contato{
+  .conteiner-contato {
     grid-template-columns: 1fr;
   }
-  .lista-contato{
+  .lista-contato {
     margin-top: 0px;
   }
-  .contato{
+  .contato {
     padding-bottom: 60px;
   }
 }
-@media (max-width: 500px){
-  .lista-contato img{
+@media (max-width: 500px) {
+  .lista-contato img {
     width: 35px;
     height: 35px;
   }
-  .conteiner-contato h2{
+  .conteiner-contato h2 {
     font-size: 40px;
   }
-  .lista-contato li{
+  .lista-contato li {
     font-size: 18px;
     gap: 20px;
   }
-  .lista-contato{
+  .lista-contato {
     gap: 30px;
   }
-  .conteiner-contato{
+  .conteiner-contato {
     margin-top: 0px;
   }
-  .img-contato{
+  .img-contato {
     padding: 0px;
   }
 }
-@media (max-width: 400px){
-  .lista-contato img{
+@media (max-width: 400px) {
+  .lista-contato img {
     width: 30px;
     height: 30px;
   }
-  .conteiner-contato h2{
+  .conteiner-contato h2 {
     font-size: 38px;
   }
-  .lista-contato li{
+  .lista-contato li {
     border-radius: 4px;
     padding: 10px;
     background-color: antiquewhite;
@@ -157,21 +154,19 @@ align-self: flex-end;
     flex-direction: column;
     gap: 10px;
   }
-  .conteiner-contato{
+  .conteiner-contato {
     margin-top: 0px;
     grid-template-columns: 1fr;
   }
   .conteiner-contato {
     margin-top: 0px;
   }
-  .img-contato{
+  .img-contato {
     padding: 0px;
   }
-  .onda{
+  .onda {
     width: 100%;
     height: 100%;
     object-position: top;
   }
 }
-
-
