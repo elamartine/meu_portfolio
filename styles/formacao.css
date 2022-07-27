@@ -93,10 +93,9 @@ span {
 }
 .img-footer .onda {
   width: 100%;
-  position: absolute;
   left: 0;
   right: 0;
-  top: 100%;
+  top: -5;
 }
 
 @media (max-width: 1600px) {
@@ -317,5 +316,8 @@ span {
   }
   .conteiner-formacao h3{
     font-size: 28px;
+  }
+  .onda{
+
   }
 }
