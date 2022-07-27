@@ -3,7 +3,8 @@
   padding: 40px 20px;
   background-color: #1b1b1b;
   justify-content: center;
-  overflow: hidden;
+  position: fixed;
+  overflow-x: hidden;
    top: 0;
    left: 0;
    width: 100%;
