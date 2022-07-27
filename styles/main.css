@@ -191,6 +191,9 @@
   .texto-main{
     gap: 10px;
   }
+  .conteiner-main{
+    height: 350px;
+  }
 
 }
 @media (max-width: 400px){
@@ -209,5 +212,8 @@
       height: 18px;
       top: 4px;
       left: -25px;
+  }
+  .conteiner-main{
+    height: 350px;
   }
 }
