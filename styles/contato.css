@@ -26,7 +26,8 @@
 
 .img-footer .onda{
   width: 100%;
-  top: -1;
+  height: 100%;
+  object-position: top;
 }
 
 .conteiner-contato {
