@@ -35,7 +35,7 @@
 .conteiner-contato {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .img-contato {
@@ -68,6 +68,9 @@ align-self: flex-end;
     width: 45px;
     height: 45px;
   }
+  .conteiner-contato{
+    margin-top: 0px;
+  }
 }
 @media (max-width: 900px){
   .lista-contato ul{
@@ -82,11 +85,12 @@ align-self: flex-end;
   .img-footer{
     position: relative;
   }
-  .img-footer img{
-    top: -1px;
-  
+  .conteiner-contato{
+    margin-top: 0px;
   }
-}
+  }
+  
+
 
 @media (max-width: 700px){
   .conteiner-contato h2{
@@ -102,7 +106,18 @@ align-self: flex-end;
   .img-contato img{
     display: none;
   }
-  
+  .img-contato{
+    padding: 0px;
+  }
+  .conteiner-contato{
+    grid-template-columns: 1fr;
+  }
+  .lista-contato{
+    margin-top: 0px;
+  }
+  .contato{
+    padding-bottom: 60px;
+  }
 }
 @media (max-width: 500px){
   .lista-contato img{
@@ -118,6 +133,12 @@ align-self: flex-end;
   }
   .lista-contato{
     gap: 30px;
+  }
+  .conteiner-contato{
+    margin-top: 0px;
+  }
+  .img-contato{
+    padding: 0px;
   }
 }
 @media (max-width: 400px){
@@ -136,9 +157,17 @@ align-self: flex-end;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
   }
-
+  .conteiner-contato{
+    margin-top: 0px;
+    grid-template-columns: 1fr;
+  }
+  .conteiner-contato {
+    margin-top: 0px;
+  }
+  .img-contato{
+    padding: 0px;
+  }
 }
 
 

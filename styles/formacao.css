@@ -294,7 +294,7 @@ span {
     flex-direction: column;
   }
   .formacao{
-    height: 1300px;
+    height: 1200px;
   }
 }
 @media (max-width: 400px){

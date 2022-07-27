@@ -3,13 +3,12 @@
   padding: 40px 20px;
   background-color: #1b1b1b;
   justify-content: center;
-  position: fixed;
+  overflow: hidden;
    top: 0;
    left: 0;
    width: 100%;
    z-index: 999;
    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
-    overflow-x: hidden;
 }
 .menu ul {
   display: flex;
@@ -66,8 +65,52 @@
 
 @media (max-width: 800px){
   .menu li{
+    font-size: 20px;
+  }
+  .header ul::before{
+    width: 18px;
+    height: 18px;
+  }
+  .header ul::after{
+    width: 18px;
+    height: 18px;
+  }
+  .menu ul{
+    gap: 30px;
+  }
+}
+@media (max-width: 700px){
+  .menu li{
+    font-size: 18px;
+  }
+  .header ul::after{
+    width: 16px;
+    height: 16px;
+  }
+  .header ul::before{
+    width: 16px;
+    height: 16px;
+  }
+  .menu ul{
+    gap: 25px;
+  }
+}
+@media (max-width: 600px){
+  .menu li{
+    font-size: 16px;
+  }
+  .header ul::after{
+    width: 14px;
+    height: 14px;
+  }
+  .header ul::before{
+    width: 14px;
+    height: 14px;
+  }
+}
+@media (max-width: 500px){
+  .menu li{
     display: none;
   }
-
 }
 
