@@ -23,6 +23,13 @@
   width: 50px;
   height: 50px;
 }
+.img-footer .onda {
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: -5;
+  margin-top: -3px;
+}
 
 
 

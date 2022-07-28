@@ -91,12 +91,7 @@ span {
   position: absolute;
   top: -40px;
 }
-.img-footer .onda {
-  width: 100%;
-  left: 0;
-  right: 0;
-  top: -5;
-}
+
 
 @media (max-width: 1600px) {
   .subtitulo {
