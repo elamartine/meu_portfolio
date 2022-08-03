@@ -72,6 +72,10 @@
   .texto-experiencia {
     grid-template-columns: 1fr;
     gap: 50px;
+    
+  }
+  .experiencia-conteudo{
+    padding: 20px;
   }
   .experiencia {
     background: none;
