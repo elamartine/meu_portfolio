@@ -1,0 +1,16 @@
+.background-escuro{
+  background-color: var(--cor-1);
+}
+.background-claro{
+  background-color: var(--cor-2);
+}
+
+.background-cinza{
+  background-color: var(--cor-3);
+}
+
+:root{
+  --cor-1: #1b1b1b;
+  --cor-2: #ffffff;
+  --cor-3: #eaeaea;
+}
