@@ -1,6 +1,7 @@
 .main {
   background-color: #1b1b1b;
-  padding-top: 115px;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 .conteiner-main {
   display: grid;
@@ -12,6 +13,8 @@
   max-width: 1270px;
   margin: auto;
 }
+
+
 .main h1 {
   grid-column: 2;
   font-weight: 600;
@@ -50,15 +53,7 @@
   max-height: auto;
 }
 
-.main h1::before {
-  content: "";
-  position: absolute;
-  width: 25px;
-  height: 52px;
-  background: linear-gradient(180deg, #f95a00 0%, #e9192f 100%);
-  left: -35px;
-  top: 13px;
-}
+
 .texto-main {
   display: flex;
   flex-direction: column;

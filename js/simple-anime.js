@@ -25,3 +25,11 @@ window.SimpleAnime = class {
 if(window.SimpleAnime){
   new SimpleAnime();
 }
+
+document.addEventListener('DOMContentLoaded', () =>{
+  new TypeIt(".animacao", {
+    strings: "",
+    speed: 200,
+    waitUntilVisible: true,
+  }).go();
+})
