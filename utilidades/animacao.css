@@ -31,3 +31,15 @@ html{
 #sobre:target , #experiencia:target{
   scroll-margin-top: 400px;
 }
+
+@media (max-width: 1700px){
+  #sobre:target , #experiencia:target{
+    scroll-margin-top: 150px;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  :target{
+    scroll-margin-top: 80px;
+  }
+}
