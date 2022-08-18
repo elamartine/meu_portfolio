@@ -34,7 +34,7 @@ html{
 
 @media (max-width: 1700px){
   #sobre:target , #experiencia:target{
-    scroll-margin-top: 150px;
+    scroll-margin-top: 85px;
   }
   html{
     scroll-behavior: smooth;
