@@ -15,21 +15,23 @@ window.SimpleAnime = class {
     void 0 !== document.visibilityState
       ? "visible" === document.visibilityState && this.animateItems()
       : this.animateItems();
+      
   }
   init() {
     (this.handleVisibility = this.handleVisibility.bind(this)),
       this.handleVisibility(),
       document.addEventListener("visibilitychange", this.handleVisibility);
+      
   }
 };
 if(window.SimpleAnime){
-  new SimpleAnime();
+  new SimpleAnime()
 }
 
 document.addEventListener('DOMContentLoaded', () =>{
-  new TypeIt(".animacao", {
+  new TypeIt(".animacao" ,{
     strings: "",
-    speed: 200,
+    speed: 150,
     waitUntilVisible: true,
   }).go();
 })

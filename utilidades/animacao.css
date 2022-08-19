@@ -11,7 +11,7 @@
 .js .fadeInDown {
   transform: translate3d(0, -20px, 0);
 }
-.js .fadeInUp {
+ .fadeInUp {
   transform: translate3d(0, 20px, 0);
 }
 .js .fadeInRight {
@@ -29,7 +29,7 @@ html{
 }
 
 #sobre:target , #experiencia:target{
-  scroll-margin-top: 400px;
+  scroll-margin-top: 85px;
 }
 
 @media (max-width: 1700px){
