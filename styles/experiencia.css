@@ -58,6 +58,11 @@
   .texto-experiencia h2 {
     font-size: 7rem;
   }
+  .experiencia{
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+  }
 }
 @media (max-width: 1000px) {
   .texto-experiencia h2 {
@@ -127,5 +132,11 @@
   .texto-experiencia h2 {
     font-size: 2rem;
   }
+  .experiencia{
+  padding-top: 60px;
+  padding-bottom: 60px;
+
 }
+}
+
 }

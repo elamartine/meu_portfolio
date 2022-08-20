@@ -93,6 +93,11 @@
   .lista-sobre img {
     width: 30px;
   }
+  .sobre{
+    padding-top: 90PX;
+    padding-bottom: 90PX;
+
+  }
 }
 
 @media (max-width: 900px) {
@@ -126,5 +131,13 @@
 
   .texto-sobre span {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 500px){
+  .sobre{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
   }
 }

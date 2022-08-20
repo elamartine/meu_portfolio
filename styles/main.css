@@ -1,7 +1,7 @@
 .main {
   background-color: #1b1b1b;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 220px;
+  padding-bottom: 220px;
 }
 .conteiner-main {
   display: grid;
@@ -173,6 +173,11 @@
     .conteiner-main{
       height: 350px;
     }
+    .main{
+      padding-top: 90px;
+      padding-bottom: 90px;
+
+    }
   }
 
 @media (max-width: 500px) {
@@ -190,7 +195,7 @@
     line-height: 1.5;
   }
   .conteiner-main{
-    padding: 15px 30px;
+    padding: 15px 20px;
   }
   .main p {
     font-size: 14px;
