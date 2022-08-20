@@ -60,7 +60,7 @@
   gap: 100px;
 }
 
-.texto-sobre h2::before {
+.texto-sobre:before {
   content: "";
   background: linear-gradient(180deg, #f95a00 0%, #e9192f 100%);
   width: 12px;
