@@ -29,7 +29,14 @@ if(window.SimpleAnime){
 }
 
 document.addEventListener('DOMContentLoaded', () =>{
-  new TypeIt(".animacao" ,{
+  new TypeIt("#animacao" ,{
+    strings: "",
+    speed: 150,
+    waitUntilVisible: true,
+  }).go();
+})
+document.addEventListener('DOMContentLoaded', () =>{
+  new TypeIt("#animacao2" ,{
     strings: "",
     speed: 150,
     waitUntilVisible: true,
