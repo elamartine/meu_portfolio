@@ -42,3 +42,24 @@ document.addEventListener('DOMContentLoaded', () =>{
     waitUntilVisible: true,
   }).go();
 })
+document.addEventListener('DOMContentLoaded', () =>{
+  new TypeIt("#animacao3" ,{
+    strings: "",
+    speed: 150,
+    waitUntilVisible: true,
+  }).go();
+})
+document.addEventListener('DOMContentLoaded', () =>{
+  new TypeIt("#animacao4" ,{
+    strings: "",
+    speed: 150,
+    waitUntilVisible: true,
+  }).go();
+})
+document.addEventListener('DOMContentLoaded', () =>{
+  new TypeIt("#animacao5" ,{
+    strings: "",
+    speed: 150,
+    waitUntilVisible: true,
+  }).go();
+})
