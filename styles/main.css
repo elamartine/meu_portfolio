@@ -60,8 +60,7 @@
   gap: 30px;
 }
 
-.detalheCursor{
-  animation: 800ms infinite normal;
+.detalhe{
   font-size: 4.5rem;
   color: #f95a00;
 }
@@ -97,7 +96,7 @@
   .main p {
     font-size: 1.2rem;
   }
-  .main span {
+  .main p span {
     font-size: 1.2rem;
   }
 }
@@ -156,7 +155,7 @@
     .main p {
       font-size: 1rem;
     }
-    .main span {
+    .main p span {
       font-size: 1rem;
     }
   }
@@ -167,7 +166,7 @@
     .main p {
       font-size: 0.8rem;
     }
-    .main span {
+    .main p span {
       font-size: 0.8rem;
     }
     .conteiner-main{
@@ -189,6 +188,9 @@
   }
   .conteiner-main{
     padding: 15px 20px;
+  }
+  .detalhe{
+    font-size: 2.5rem;
   }
 
 }
