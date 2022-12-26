@@ -1,4 +1,4 @@
-.conteiner-projetos{
+.conteiner-projetos {
   max-width: 1270px;
   margin: auto;
   padding-left: 20px;
@@ -10,36 +10,51 @@
   align-items: center;
   justify-content: center;
 }
-.section-projetos{
+.section-projetos {
   background-color: black;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.section-projetos img{
+.section-projetos img {
   max-width: 250px;
   height: auto;
 }
 
-.flexblog{
+.flexblog {
   color: #fff;
   font-size: 68px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
-.section-projetos h2{
+.section-projetos h2 {
   font-size: 38px;
   color: #fff;
   text-align: center;
   padding-bottom: 40px;
-  text-transform:uppercase;
-  font-family: 'roboto';
+  text-transform: uppercase;
+  font-family: "roboto";
 }
 
-@media (max-width:600px){
-  .conteiner-projetos{
+.blocos-projetos {
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.texto-blocos {
+  max-width: 200px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .conteiner-projetos {
     flex-direction: column;
   }
-  .section-projetos img{
+  .section-projetos img {
     width: 150px;
     height: auto;
   }

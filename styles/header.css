@@ -1,8 +1,9 @@
 .header {
   display: flex;
-  padding: 40px 20px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0px;
   background-color: #1b1b1b;
-  justify-content: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -82,6 +83,11 @@
   margin-bottom: 8px;
 }
 
+.logo-menu {
+  width: 100px;
+  height: 100px;
+}
+
 @media (max-width: 800px) {
   .menu li {
     font-size: 20px;
@@ -131,21 +137,20 @@
   .menu li {
     display: none;
   }
-  .header{
+  .header {
     padding: 30px 10px;
   }
-  .header ul:after{
+  .header ul:after {
     display: none;
-   }
-   .header ul::before{
+  }
+  .header ul::before {
     display: none;
-   }
+  }
 }
-@media (min-width: 500px){
- .menu-mobile{
-  display: none;
- }
-
+@media (min-width: 500px) {
+  .menu-mobile {
+    display: none;
+  }
 }
 
 .menu-mobile ul {
