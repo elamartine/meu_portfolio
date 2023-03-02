@@ -29,34 +29,35 @@
 
 <body>
 
-  <header class="header background-preto">
-    <div class="logo-menu">
-      <img src="./img/img-header/logo.svg" alt="">
+  <header>
+    <nav class="nav-bar">
+        <div class="logo-menu">
+            <img src="./img/img-header/logo.svg" alt="">
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#experiencia" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#formacao" class="nav-link"> Sobre</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link"> Sobre</a></li>
+            </ul>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="./img/img-header/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+            <li class="nav-item"><a href="#experiencia" class="nav-link">Experiência</a></li>
+            <li class="nav-item"><a href="#formacao" class="nav-link">Formação</a></li>
+            <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+
     </div>
+</header>
 
-    <nav class="menu-mobile">
-      <ul>
-        <li> <a href="#sobre"><img src="./img/casa.svg" alt="">
-          </a> </li>
-        <li> <a href="#experiencia"><img src="./img/img-header/experiencia.svg" alt="">
-          </a></li>
-        <li> <a href="#formacao"><img src="./img/img-header/formação.svg" alt="">
-          </a></li>
-        <li> <a href="#contato""><img src=" ./img/img-header/contato.svg" alt="">
-          </a></li>
-      </ul>
-    </nav>
-
-    <nav class="menu">
-      <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-
-  </header>
   <main class="main">
     <div class="conteiner-main">
       <img src="./img/IMG_20190819_173113_008.jpg" alt="" data-anime="600">
@@ -132,16 +133,13 @@
     <h2>projetos</h2>
     <div class="conteiner-projetos">
 
-      <div class="blocos-projetos">
-        <a href="https://elamartine.github.io/bikcraft/" target="_blank"><img src="./img/bikcraft.svg" alt=""></a>
-        <p class="texto-blocos">Esse é foi meu primeiro grande projeto, fiz ele quando estava concluindo o curso de HTML e CSS para iniciantes na plataforma Origamid</p>
-        <button></button>
-      </div>
+        <a href="https://elamartine.github.io/bikcraft/" target="_blank"><img src="./img/img-projetos/bikcraft.svg" alt=""></a>
 
 
-      <a href="https://elamartine.github.io/mundo_invertido/" target="_blank"><img src="./img/logo.svg" alt=""></a>
-      <a href="https://elamartine.github.io/flex_Blog/" target="_blank"><img src="./img/FlexBlog.svg" alt=""></a>
-      <a href="https://elamartine.github.io/APA8Verde/" target="_blank"><img src="./img/APA8VERDE-logo.svg" alt=""></a>
+      <a href="https://elamartine.github.io/mundo_invertido/" target="_blank"><img src="./img/img-projetos/logo-mundo-invertido.svg" alt=""></a>
+
+      <a href="https://elamartine.github.io/flex_Blog/" target="_blank"><img src="./img/img-projetos/FlexBlog.svg" alt=""></a>
+      <a href="https://elamartine.github.io/APA8Verde/" target="_blank"><img src="./img/img-projetos/APA8VERDE-logo.svg" alt=""></a>
 
 
 
@@ -262,6 +260,7 @@
   <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
   <script src="./js/scroll.js"></script>
   <script src="./js/simple-anime.js"></script>
+  <script src="./js/menu.js"></script>
 </body>
 
 </html>
