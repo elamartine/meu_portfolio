@@ -1,10 +1,11 @@
-function menuShow() {
-  let menuMobile = document.querySelector('.mobile-menu');
-  if (menuMobile.classList.contains('open')) {
-      menuMobile.classList.remove('open');
-      document.querySelector('.icon').src = "img/img-header/menu_white_36dp.svg";
-  } else {
-      menuMobile.classList.add('open');
-      document.querySelector('.icon').src = "img/img-header/close_white_36dp.svg";
-  }
+const bntMobile = document.getElementById('btn-mobile')
+
+
+function toggleMenu(event){
+  if(event.type === 'touchstart') event.preventDefault();
+const nav = document.getElementById('nav');
+nav.classList.toggle('active');
 }
+
+bntMobile.addEventListener('click', toggleMenu)
+bntMobile.addEventListener('touchstart', toggleMenu)
