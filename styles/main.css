@@ -1,7 +1,6 @@
 .main {
   background-color: #1b1b1b;
-  padding-top: 220px;
-  padding-bottom: 220px;
+  height: calc(100vh-100);
 }
 .conteiner-main {
   display: grid;
@@ -210,3 +209,4 @@
     height: 350px;
   }
 }
+
