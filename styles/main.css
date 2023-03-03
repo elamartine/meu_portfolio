@@ -1,6 +1,6 @@
 .main {
   background-color: #1b1b1b;
-  height: calc(100vh-100);
+  height: calc(100vh-100px);
 }
 .conteiner-main {
   display: grid;
