@@ -29,33 +29,22 @@
 
 <body>
 
-  <header>
-    <nav class="nav-bar">
-        <div class="logo-menu">
-            <img src="./img/img-header/logo.svg" alt="">
-        </div>
-        <div class="nav-list">
-            <ul>
-                <li class="nav-item"><a href="#sobre" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="#experiencia" class="nav-link">Projetos</a></li>
-                <li class="nav-item"><a href="#formacao" class="nav-link"> Sobre</a></li>
-                <li class="nav-item"><a href="#contato" class="nav-link"> Sobre</a></li>
-            </ul>
-        </div>
-
-        <div class="mobile-menu-icon">
-            <button onclick="menuShow()"><img class="icon" src="./img/img-header/menu_white_36dp.svg" alt=""></button>
-        </div>
-    </nav>
-    <div class="mobile-menu">
-        <ul>
-            <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
-            <li class="nav-item"><a href="#experiencia" class="nav-link">Experiência</a></li>
-            <li class="nav-item"><a href="#formacao" class="nav-link">Formação</a></li>
-            <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
-        </ul>
-
+  <header id="header">
+    <div class="logo-menu">
+        <img src="./img/img-header/logo.svg" alt="">
     </div>
+    <nav id="nav">
+        
+        <button id="btn-mobile">
+            <span id="hamburger"></span>
+        </button>
+        <ul id="menu">
+            <li><a target="_parent" href="#sobre">Sobre</a></li>
+            <li><a target="_parent" href="experiência">Experiência</a></li>
+            <li><a target="_parent" href="#formacao">Formação</a></li>
+            <li><a target="_parent" href="contato">Contato</a></li>
+        </ul>
+    </nav>
 </header>
 
   <main class="main">
