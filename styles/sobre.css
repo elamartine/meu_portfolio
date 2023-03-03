@@ -1,7 +1,7 @@
 .sobre {
   background: linear-gradient(90deg, #eaeaea 50%, #fff 50%);
-  padding-top: 230px;
-  padding-bottom: 230px;
+  height: calc(100vh-100px);
+  overflow-x: hidden;
 }
 .lista-sobre ul {
   display: flex;
