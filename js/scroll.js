@@ -1,18 +1,15 @@
-// const menuItens = document.querySelectorAll(".menu a");
+var linksInternos = document.querySelectorAll('a[href^="#"]');
 
-// menuItens.forEach((item) => {
-//   item.addEventListener("click", scroll);
-// });
+linksInternos.addEventListener("click", scrollSuave);
+function scrollSuave(event) {
+  event.preventDefault();
+  console.log("Link interno clicado!"); // adicionado para verificar se o manipulador de eventos está sendo acionado
+  var secao = document.querySelector(this.hash);
+  if (!secao) return;
+  secao.style.position = "absolute";
+  secao.style.top = "50%";
+  secao.style.left = "50%";
+  secao.style.transform = "translate(-50%, -50%)";
+};
 
-// function scroll(event) {
-//   event.preventDefault();
-//   const element = event.target;
-//   const id = element.getAttribute('href');
-//   const to = document.querySelector(id).offsetTop;
-  
-//   window.scroll({
-//     top: to - 80,
-//     behavior: "smooth",
-//   });
-// }
 
