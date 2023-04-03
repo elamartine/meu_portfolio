@@ -154,6 +154,7 @@
 @media (max-width: 425px){
   .main h1{
     font-size: 1.5rem;
+    line-height: inherit;
     
   }
   .conteiner-main{
